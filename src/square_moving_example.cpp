@@ -1,5 +1,5 @@
 /*
- *Version 1.0 17/9/2015 Dimitris Gryparis
+ *Version 1.0 17/9/2015 
  */
 
 #include <thread>
