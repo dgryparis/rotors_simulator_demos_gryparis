@@ -79,7 +79,7 @@ int main(int argc, char** argv){
   // Wait for 2 seconds to let the Gazebo GUI show up.
   ros::Duration(2.0).sleep();
 
-  //trajectory_msgs::MultiDOFJointTrajectory trajectory_msg;
+  
   trajectory_msg.header.stamp = ros::Time::now();
   desired_position[0]=2.0;
   desired_yaw = 0.0;
@@ -98,7 +98,7 @@ int main(int argc, char** argv){
   // Wait for 2 seconds to let the Gazebo GUI show up.
   ros::Duration(2.0).sleep();
 
-  //trajectory_msgs::MultiDOFJointTrajectory trajectory_msg;
+  
   trajectory_msg.header.stamp = ros::Time::now();
   desired_position[1]=2.0;
   desired_yaw = 0.0;
@@ -116,7 +116,7 @@ int main(int argc, char** argv){
   // Wait for 2 seconds to let the Gazebo GUI show up.
   ros::Duration(2.0).sleep();
 
-  //trajectory_msgs::MultiDOFJointTrajectory trajectory_msg;
+  
   trajectory_msg.header.stamp = ros::Time::now();
   desired_position[0]=0.0;
   desired_yaw = 0.0;
@@ -134,7 +134,7 @@ int main(int argc, char** argv){
   // Wait for 2 seconds to let the Gazebo GUI show up.
   ros::Duration(2.0).sleep();
 
-  //trajectory_msgs::MultiDOFJointTrajectory trajectory_msg;
+  
   trajectory_msg.header.stamp = ros::Time::now();
   desired_position[1]=0.0;
   desired_yaw = 0.0;
