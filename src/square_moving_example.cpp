@@ -76,7 +76,7 @@ int main(int argc, char** argv){
            desired_position.z());
   trajectory_pub.publish(trajectory_msg);
 
-  // Wait for 2 seconds to let the Gazebo GUI show up.
+  // Wait for 2 seconds to send the point coordinates.
   ros::Duration(2.0).sleep();
 
   
@@ -95,7 +95,7 @@ int main(int argc, char** argv){
 
 
 
-  // Wait for 2 seconds to let the Gazebo GUI show up.
+  // Wait for 2 seconds to send the point coordinates.
   ros::Duration(2.0).sleep();
 
   
@@ -113,7 +113,7 @@ int main(int argc, char** argv){
   trajectory_pub.publish(trajectory_msg);
 
 
-  // Wait for 2 seconds to let the Gazebo GUI show up.
+  // Wait for 2 seconds to send the point coordinates.
   ros::Duration(2.0).sleep();
 
   
@@ -131,7 +131,7 @@ int main(int argc, char** argv){
   trajectory_pub.publish(trajectory_msg);
 
 
-  // Wait for 2 seconds to let the Gazebo GUI show up.
+  // Wait for 2 seconds to send the point coordinates.
   ros::Duration(2.0).sleep();
 
   
